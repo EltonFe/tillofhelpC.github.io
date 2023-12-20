@@ -48,15 +48,15 @@
 
         <p>Esse foi construido no C++ Builder Community Edition obtido gratuitamente em embarcadero.com</p>
 
-        <p>Este é um exemplo de uma fila do tipo estática onde os endereços foram alocados estáticamente com maloc que é
+        <p>Este é um exemplo de uma fila do tipo estática onde os endereços foram alocados dinamicamente com malloc que é
             uma função do C que trabalha muito bem. Em C++ você faria com nome reservado new própria para o C++. Mas eu
             geralmente uso realloc por que sempre estou precisando de mais endereços.</p>
 
         <p>
-            Se voce não estiver familiarizado com algumas diretivas de compilação não se preocupe ok. Eu tambem me
+            Se voce não estiver familiarizado com algumas diretivas de compilação não se preocupe ok. Eu também me
             enrolo muito com elas.</p>
 
-        <p>Este é o codigo do que contem o main mais em baixo tem um outro código que você deve por em um arquivo
+        <p>Este é o codigo do que contém o main mais em baixo tem um outro código que você deve por em um arquivo
             FileFila.h que vai ser chamado junto com o projeto na diretiva #include "FileFila.h", coloque-o na mesma
             pasta
             do
@@ -151,8 +151,8 @@
             
             codigo do FileFila.h
             
-            #include &ltstdlib.h>
-                #include &ltstdio.h>
+            #include &ltstdlib.h&gt
+                #include &ltstdio.h&gt
                     
                     struct Estrutura_Fila{
                         int *Numero;
