@@ -78,7 +78,7 @@
                 typedef char _TCHAR;
                 #define _tmain main
                 #endif
-                void Insere_Pilha(struct Estrutura_Fila *Fila);
+                void Insere_Fila(struct Estrutura_Fila *Fila);
                 void Faz_Retirada(struct Estrutura_Fila *Fila);
             int _tmain(int argc, _TCHAR* argv[])
             {
@@ -101,7 +101,7 @@
                 system("pause");
                 break;
                 case 1: system("cls");
-                Insere_Pilha(Fila);
+                Insere_Fila(Fila);
                 printf("\n\n\t\t");
                 system("pause");
                 break;
@@ -129,7 +129,7 @@
                 system("pause");
                 return 0;
             }
-            void Insere_Pilha(struct Estrutura_Fila *Fila){
+            void Insere_Fila(struct Estrutura_Fila *Fila){
             
             int Numero;
             
