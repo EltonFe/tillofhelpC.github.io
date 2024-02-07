@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.div-logo{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+
+.div-lista{
+    background-color: rgb(90, 228, 168);
+    border: 1px solid rgb(27, 46, 53);
+    border-radius: 15px;
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    
+}
+nav h2{
+    color:rgb(27, 46, 53);
+}
+
+
+li a{
+    
+    
+    text-decoration: none;
+    color:rgb(52, 69, 76)
+     
+    
+
+}
+li a:hover{
+    font-weight: bold;
+    border-left: 1px solid rgb(27, 46, 53);
+    color: rgb(27, 46, 53);
+} 
+
+
+main{
+    
+}
+main img{
+    float: right;
+    width: 40%;
+}
+
+.footer{
+    background-color: rgb(52, 69, 76);
+    color: rgb(90, 228, 168);
+}
+@media only screen and (max-width: 500px){
+    .div-lista{
+        display: block;
+        
+    }
+    .div-main{
+        display: block;
+    }
+    .row{
+        display: block;
+    }
+    .div-lista{
+        width: 100%;
+    }
+    main img{
+        float: none;
+        display: none;
+    }
+    .div-main{
+        width: 100%;
+        font-size: 20px;
+    }
+    .div-logo{
+        display:block;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .header{
+        display: block;
+    }
+    
+
+
+}
+    
+
+
