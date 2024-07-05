@@ -48,9 +48,7 @@ li a:hover{
 } 
 
 
-main{
-    
-}
+
 main img{
     float: right;
     width: 40%;
@@ -60,6 +58,13 @@ main img{
     background-color: rgb(52, 69, 76);
     color: rgb(90, 228, 168);
 }
+
+.box-container{
+    min-height: 70vh;
+
+}
+
+
 @media only screen and (max-width: 500px){
     .div-lista{
         display: block;
